@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Este proyecto ahora esta en git!',
+      title: 'Regresamos a la normalidad',
       initialRoute: AppRoutes.initialRoute,
       routes: AppRoutes.getAppRoutes(),
       onGenerateRoute: AppRoutes.onGenerateRoute,
